@@ -9,6 +9,12 @@ This is a collection of scripts in Python, Bash, and C I built in university. Th
 - Latest version of Python
 - Windows Subsystem for Linux (WSL) if running on Windows
 
+### Clone git repo
+
+Clone the repo in your terminal to access the files.
+
+```git clone https://github.com/V3nusAsABoy/scripts-collection.git```
+
 ### Usage
 
 Open the directory in your terminal and navigate through each folder. Each folder has a log file(s) or a screenshot demonstrating how the file can be used. For the 3380-labs scripts, there is a list of instructions at the top showing how to use the script.
