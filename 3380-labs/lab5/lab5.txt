@@ -1,0 +1,30 @@
+Script started on 2024-11-21 14:47:56-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="238" LINES="74"]
+]0;andrewabdulaziz@loki:~/3380/lab5[?2004h[andrewabdulaziz@loki lab5]$ ./lab5
+[?2004lWaiting for another signal... 
+^CThis is the 1 time you pressed ctrl-c 
+Waiting for another signal... 
+^CThis is the 2 time you pressed ctrl-c 
+Waiting for another signal... 
+^CThis is the 3 time you pressed ctrl-c 
+Waiting for another signal... 
+This is the 4 time you pressed ctrl-c 
+Waiting for another signal... 
+^CThis is the 5 time you pressed ctrl-c 
+Max has been reached. Program will terminate on next ^C 
+Waiting for another signal... 
+^C^C
+]0;andrewabdulaziz@loki:~/3380/lab5[?2004h[andrewabdulaziz@loki lab5]$ ./lab5
+[?2004lWaiting for another signal... 
+^CThis is the 1 time you pressed ctrl-c 
+Waiting for another signal... 
+^CThis is the 2 time you pressed ctrl-c 
+Waiting for another signal... 
+^CThis is the 3 time you pressed ctrl-c 
+Waiting for another signal... 
+^\I am the child hear me roar
+You pressed ^C 3 times
+The child sent a signal so you must be bored. See ya!
+]0;andrewabdulaziz@loki:~/3380/lab5[?2004h[andrewabdulaziz@loki lab5]$ exit
+[?2004lexit
+
+Script done on 2024-11-21 14:48:20-05:00 [COMMAND_EXIT_CODE="0"]

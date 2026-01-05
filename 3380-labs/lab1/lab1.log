@@ -1,0 +1,123 @@
+Script started on 2024-09-26 12:16:58-04:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ exit[Kexit./lab1_question2_part1.sh “/home/COIS/3380/lab1/system_logs_backup_*”[A[C[C[C[C[C[C[C[C[C[C[C[28Prm top_10_404_pages.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Call_logged_404_pages.txt[3Pcat top_10_404_pages.txtrm all_logged_404_pages.txt[4Ptop_10_404_pages.txt./lab1_question2_part1.sh “/home/COIS/3380/lab1/system_logs_backup_*”[A[C[C[C[C[C[C[C[C[C[C[Cexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[7m./lab1_question2_part1.sh /home/COIS/3380/lab1/syst[27m[7me[27m[7mm_logs_backup_2019-11-04_access.log.3[27m[A./lab1_question2_part1.sh /home/COIS/3380/lab1/system_logs_backup_2019-11-04_access.log.3
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ ls
+[?2004lall_logged_404_pages.txt  [0m[01;32mlab1_question1.sh[0m        [01;32mlab1_question2_part2.sh[0m
+lab1.log                  [01;32mlab1_question2_part1.sh[0m  top_10_404_pages.txt
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ [7mcat top_10_404_pages.txt[27mcat top_10_404_pages.txt
+[?2004l     27 "POST /test.php
+     24 "POST /1.php
+     18 "POST /qq.php
+     12 "POST /x.php
+     12 "POST /ss.php
+     12 "POST /shell.php
+     12 "POST /confg.php
+     12 "POST /api.php
+     10 "GET /robots.txt
+      9 "POST /zxy.php
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ [7mrm all_logged_404_pages.txt[27mrm all_logged_404_pages.txt
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ [7mrm top_10_404_pages.txt[27mrm top_10_404_pages.txt
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ rm top_10_404_pages.txtall_logged_404_pages.txt[3Pcat top_10_404_pages.txtls[K./lab1_question2_part1.sh /home/COIS/3380/lab1/system_logs_backup_2019-11-04_access.log.3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" /home/COIS/3380/lab1/system_logs_backup_*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /home/COIS/3380/lab1/syste[1Pm_logs_backup_*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"/home/COIS/3380/lab1/system_logs_backup_*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ ls
+[?2004lall_logged_404_pages.txt  [0m[01;32mlab1_question1.sh[0m        [01;32mlab1_question2_part2.sh[0m
+lab1.log                  [01;32mlab1_question2_part1.sh[0m  top_10_404_pages.txt
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ cat top_10_404_pages.txt
+[?2004l   6805 "GET /robots.txt
+   4402 "POST /1.php
+   4286 "POST /qq.php
+   3638 "POST /test.php
+   2809 "POST /confg.php
+   2352 "POST /x.php
+   2351 "HEAD /robots.txt
+   2230 "POST /q.php
+   1839 "POST /xx.php
+   1831 "POST /api.php
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ [7m./lab1_question2_part2.sh /home/COIS/3380/lab1/syst[27m[7me[27m[7mm_logs_backup_2019-11-04_access.log.3[27m[A./lab1_question2_part2.sh /home/COIS/3380/lab1/system_logs_backup_2019-11-04_access.log.3
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ ls
+[?2004lall_logged_404_pages.txt  [0m[01;32mlab1_question1.sh[0m        top_10_404_pages.txt
+all_logged_ips.txt        [01;32mlab1_question2_part1.sh[0m  top_10_ips.txt
+lab1.log                  [01;32mlab1_question2_part2.sh[0m
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ cat top_10_ips.txt
+[?2004l    892 192.169.231.213
+    892 106.12.123.186
+    891 101.51.106.223
+      7 106.13.116.111
+      6 120.92.123.150
+      3 157.55.39.245
+      2 46.4.65.7
+      2 157.55.39.61
+      2 157.230.137.113
+      1 95.80.215.170
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ rm top_10_ips.txt
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ rm all_logged_ips.txt
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ rm all_logged_ips.txt[4Ptop_10_ips.txt[1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K./lab1_question2_part2.sh /home/COIS/3380/lab1/system_logs_backup_2019-11-04_access.log.3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C"/home/COIS/3380/lab1/system_logs_backup_*"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ ls
+[?2004lall_logged_404_pages.txt  [0m[01;32mlab1_question1.sh[0m        top_10_404_pages.txt
+all_logged_ips.txt        [01;32mlab1_question2_part1.sh[0m  top_10_ips.txt
+lab1.log                  [01;32mlab1_question2_part2.sh[0m
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ cat top_10_ips.txt
+[?2004l    954 /home/COIS/3380/lab1/system_logs_backup_2020-08-31_access.log.4:202.152.135.2
+    948 /home/COIS/3380/lab1/system_logs_backup_2020-06-15_access.log.14:103.106.246.18
+    948 /home/COIS/3380/lab1/system_logs_backup_2020-06-08_access.log.7:103.106.246.18
+    948 /home/COIS/3380/lab1/system_logs_backup_2020-06-01_access.log:103.106.246.18
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-08-03_access.log.12:103.139.0.211
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-07-27_access.log.5:103.139.0.211
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-06-08_access.log.9:58.216.216.2
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-06-01_access.log.2:58.216.216.2
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-05-25_access.log.13:103.30.43.70
+    947 /home/COIS/3380/lab1/system_logs_backup_2020-05-18_access.log.6:103.30.43.70
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [K[andrewabdulaziz@loki lab1]$ [7mwget http://ipinfo.io/(paste top ip)[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pwget http://ipinfo.io/(paste top ip[K[K[K[K[K[K[K[K[K[K[K[K[K[K/202.152.134[K5.2
+[?2004l--2024-09-26 12:19:51--  http://ipinfo.io/202.152.135.2
+Resolving ipinfo.io (ipinfo.io)... 34.117.59.81
+Connecting to ipinfo.io (ipinfo.io)|34.117.59.81|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 292 [application/json]
+Saving to: ‘202.152.135.2’
+
+202.152.135.2                    0%[                                                  ]       0  --.-KB/s               202.152.135.2                  100%[=================================================>]     292  --.-KB/s    in 0s      
+
+2024-09-26 12:19:52 (11.7 MB/s) - ‘202.152.135.2’ saved [292/292]
+
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ wget http://ipinfo.io/202.152.135.2[K[K[K[K[K[K[K[K[K[K[K[K[K[K10[K[K[3Pcat top_10_ips.txtls[Kcat top_10_ips.txtwget http://ipinfo.io[Kwget http://ipinfo.io.[K/103.105[K6.246.18
+[?2004l--2024-09-26 12:20:19--  http://ipinfo.io/103.106.246.18
+Resolving ipinfo.io (ipinfo.io)... 34.117.59.81
+Connecting to ipinfo.io (ipinfo.io)|34.117.59.81|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 227 [application/json]
+Saving to: ‘103.106.246.18’
+
+103.106.246.18                   0%[                                                  ]       0  --.-KB/s               103.106.246.18                 100%[=================================================>]     227  --.-KB/s    in 0s      
+
+2024-09-26 12:20:19 (10.2 MB/s) - ‘103.106.246.18’ saved [227/227]
+
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ ls
+[?2004l103.106.246.18  all_logged_404_pages.txt  lab1.log           [0m[01;32mlab1_question2_part1.sh[0m  top_10_404_pages.txt
+202.152.135.2   all_logged_ips.txt        [01;32mlab1_question1.sh[0m  [01;32mlab1_question2_part2.sh[0m  top_10_ips.txt
+]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ cat 202.152.134[K5.2
+[?2004l{
+  "ip": "202.152.135.2",
+  "hostname": "202-152-135-2.citra.net.id",
+  "city": "Yogyakarta",
+  "region": "Yogyakarta",
+  "country": "ID",
+  "loc": "-7.8014,110.3647",
+  "org": "AS23951 PT JEMBATAN CITRA NUSANTARA",
+  "timezone": "Asia/Jakarta",
+  "readme": "https://ipinfo.io/missingauth"
+}]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ cat 103.105[K6.25[K46.19[K8
+[?2004l{
+  "ip": "103.106.246.18",
+  "city": "Sydney",
+  "region": "New South Wales",
+  "country": "AU",
+  "loc": "-33.8678,151.2073",
+  "postal": "1001",
+  "timezone": "Australia/Sydney",
+  "readme": "https://ipinfo.io/missingauth"
+}]0;andrewabdulaziz@loki:~/3380/lab1[?2004h[andrewabdulaziz@loki lab1]$ exit
+[?2004lexit
+
+Script done on 2024-09-26 12:20:57-04:00 [COMMAND_EXIT_CODE="0"]

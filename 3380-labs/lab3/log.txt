@@ -1,0 +1,87 @@
+Script started on 2024-10-31 15:10:41-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="238" LINES="66"]
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m/home/COIS/3380/lab3[27m/home/COIS/3380/lab3
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+67243216 DIR drwxrwxr-x   0      1029    2024-02-26 16:58:00 4096    .. 
+100713067 REG -rwxrwxr-x   1000      1029    2022-04-17 17:09:30 20675    arasaurolopus_baby.pdf 
+100713069 REG -rwxrwxr-x   1000      1029    2017-02-01 07:07:25 3093    string_testing.c 
+100713071 REG -rwxrwxr-x   1000      1029    2017-07-30 11:44:47 16436089    lab3_dir.tar.gz 
+100713072 REG -rwxrwxr-x   1000      1029    2016-01-26 10:53:18 6915    3_range_random.c 
+100713073 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 1832    1_test_random.c 
+9183033 DIR drwxrwxr-x   1000      1029    2022-04-07 08:46:13 147    gnuplot 
+100713074 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 2879    2_seed_random.c 
+100713075 REG -rwxrwxr-x   1000      1029    2022-04-17 17:09:20 408606    poke1.jpg 
+100713076 REG -rwxrwxr-x   1000      1029    2016-01-21 10:43:52 22434    Shell_file_processing.pdf 
+100713077 REG -rwxrwxr-x   1000      1029    2017-07-25 11:23:57 616    lab2_textfile.txt 
+100713078 REG -rwxrwxr-x   1000      1029    2016-12-09 10:17:00 213904    visual_Studio_Community.exe 
+100713079 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 559    cities_short.csv 
+100713080 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 6477803    cities_all.csv 
+100713081 REG -rwxrwxr-x   1000      1029    2000-02-21 18:21:40 36019    stegosau.pdf 
+100713082 REG -rwxrwxr-x   1000      1029    1987-12-06 16:21:52 40102    CALCOMP.ARC 
+100713083 REG -rwxrwxr-x   1000      1029    2022-04-17 17:10:59 1273576    putty.exe 
+100713084 REG -rwxrwxr-x   1000      1029    2017-02-04 15:12:29 9043232    WinSCP-5.9.3-Setup.exe 
+100713085 REG -rwxrwxr-x   1000      1029    2000-02-21 18:24:00 87489    diplodocus.pdf 
+100713086 REG -rwxrwxr-x   1000      1029    2022-09-26 11:47:21 1921    small_world.txt 
+100713087 REG -rwxrwxr-x   1000      1029    2022-04-17 17:09:10 46903    jewel.jpg 
+100713733 REG -rwxrwxr-x   1000      1029    1980-01-01 00:01:28 1179    C128.XTK 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m-s 5000 /home/COIS/3380/lab3[27m-s 5000 /home/COIS/3380/lab3
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+67243216 DIR drwxrwxr-x   0      1029    2024-02-26 16:58:00 4096    .. 
+100713069 REG -rwxrwxr-x   1000      1029    2017-02-01 07:07:25 3093    string_testing.c 
+100713073 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 1832    1_test_random.c 
+9183033 DIR drwxrwxr-x   1000      1029    2022-04-07 08:46:13 147    gnuplot 
+100713074 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 2879    2_seed_random.c 
+100713077 REG -rwxrwxr-x   1000      1029    2017-07-25 11:23:57 616    lab2_textfile.txt 
+100713079 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 559    cities_short.csv 
+100713086 REG -rwxrwxr-x   1000      1029    2022-09-26 11:47:21 1921    small_world.txt 
+100713733 REG -rwxrwxr-x   1000      1029    1980-01-01 00:01:28 1179    C128.XTK 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./am[K[Kmain [7m-l 50000 /home/COIS/3380/lab3[27m-l 50000 /home/COIS/3380/lab3
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+100713071 REG -rwxrwxr-x   1000      1029    2017-07-30 11:44:47 16436089    lab3_dir.tar.gz 
+100713075 REG -rwxrwxr-x   1000      1029    2022-04-17 17:09:20 408606    poke1.jpg 
+100713078 REG -rwxrwxr-x   1000      1029    2016-12-09 10:17:00 213904    visual_Studio_Community.exe 
+100713080 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 6477803    cities_all.csv 
+100713083 REG -rwxrwxr-x   1000      1029    2022-04-17 17:10:59 1273576    putty.exe 
+100713084 REG -rwxrwxr-x   1000      1029    2017-02-04 15:12:29 9043232    WinSCP-5.9.3-Setup.exe 
+100713085 REG -rwxrwxr-x   1000      1029    2000-02-21 18:24:00 87489    diplodocus.pdf 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m-y 190 /home/COIS/3380/lab3[27m-y 190 /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab3[1P /home/COIS/3380/lab32 /home/COIS/3380/lab35 /home/COIS/3380/lab30 /home/COIS/3380/lab3
+[?2004l250inode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+67243216 DIR drwxrwxr-x   0      1029    2024-02-26 16:58:00 4096    .. 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m -o 3650 /home/COIS/3380/lab3[27m -o 3650 /home/COIS/3380/lab3
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+100713081 REG -rwxrwxr-x   1000      1029    2000-02-21 18:21:40 36019    stegosau.pdf 
+100713082 REG -rwxrwxr-x   1000      1029    1987-12-06 16:21:52 40102    CALCOMP.ARC 
+100713085 REG -rwxrwxr-x   1000      1029    2000-02-21 18:24:00 87489    diplodocus.pdf 
+100713733 REG -rwxrwxr-x   1000      1029    1980-01-01 00:01:28 1179    C128.XTK 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m-o 2500 -y 9862 /home/COIS/3380/lab3[27m-o 2500 -y 9862 /home/COIS/3380/lab3
+[?2004l9862inode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+100713069 REG -rwxrwxr-x   1000      1029    2017-02-01 07:07:25 3093    string_testing.c 
+100713071 REG -rwxrwxr-x   1000      1029    2017-07-30 11:44:47 16436089    lab3_dir.tar.gz 
+100713072 REG -rwxrwxr-x   1000      1029    2016-01-26 10:53:18 6915    3_range_random.c 
+100713073 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 1832    1_test_random.c 
+100713074 REG -rwxrwxr-x   1000      1029    2016-01-26 09:58:24 2879    2_seed_random.c 
+100713076 REG -rwxrwxr-x   1000      1029    2016-01-21 10:43:52 22434    Shell_file_processing.pdf 
+100713077 REG -rwxrwxr-x   1000      1029    2017-07-25 11:23:57 616    lab2_textfile.txt 
+100713078 REG -rwxrwxr-x   1000      1029    2016-12-09 10:17:00 213904    visual_Studio_Community.exe 
+100713079 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 559    cities_short.csv 
+100713080 REG -rwxrwxr-x   1000      1029    2017-01-20 12:38:49 6477803    cities_all.csv 
+100713081 REG -rwxrwxr-x   1000      1029    2000-02-21 18:21:40 36019    stegosau.pdf 
+100713084 REG -rwxrwxr-x   1000      1029    2017-02-04 15:12:29 9043232    WinSCP-5.9.3-Setup.exe 
+100713085 REG -rwxrwxr-x   1000      1029    2000-02-21 18:24:00 87489    diplodocus.pdf 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main [7m-o 3650 -y 9862 -l 40000 -s 100000 /home/COIS/3380/lab3[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-o 3650 -y 9862 -l 40000 -s 100000 /home/COIS/3380/lab3
+[?2004l9862inode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+100713085 REG -rwxrwxr-x   1000      1029    2000-02-21 18:24:00 87489    diplodocus.pdf 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+69101785 DIR drwxrwx---   1199      1029    2024-10-19 14:35:55 69    .. 
+37131875 REG -rw-r--r--   1199      1205    2024-10-30 18:14:23 0    test.c 
+37487216 REG -rw-r--r--   1199      1205    2024-10-31 15:09:06 3267    lab3.c 
+37340033 REG -rw-r--r--   1199      1205    2024-10-30 22:40:50 0    a.txt 
+37340034 REG -rwxr-xr-x   1199      1205    2024-10-31 15:08:04 18320    main 
+37487219 REG -rw-r--r--   1199      1205    2024-10-31 15:11:35 4096    log.txt 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ ./main -l 100000[K
+[?2004linode    Type Permission   UID	    GID	    Modification date   Size   Filename 
+37340034 REG -rwxr-xr-x   1199      1205    2024-10-31 15:08:04 18320    main 
+]0;andrewabdulaziz@loki:~/3380/lab3[?2004h[andrewabdulaziz@loki lab3]$ exit
+[?2004lexit
+
+Script done on 2024-10-31 15:13:37-04:00 [COMMAND_EXIT_CODE="0"]

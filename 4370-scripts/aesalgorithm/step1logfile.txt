@@ -1,0 +1,50 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251105123921
+Username: DESKTOP-305VFK2\andre
+RunAs User: DESKTOP-305VFK2\andre
+Configuration Name: 
+Machine: DESKTOP-305VFK2 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 37464
+PSVersion: 5.1.26100.6899
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.6899
+BuildVersion: 10.0.26100.6899
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is step2logfile.txt
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> echo "The meeting will take place tomorrow at 11:30AM in conference room B. Brienne, Cherene, Vincent, and Caleb will be there." > message.txt
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> ParameterBinding(Out-File): name="InputObject"; value="The meeting will take place tomorrow at 11:30AM in conference room B. Brienne, Cherene, Vincent, and Caleb will be there."
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> python aesencryption.py message.txt
+Encrypting file...
+File encrypted successfully!
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> ls
+
+
+    Directory: C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025-11-03  10:43 AM                __pycache__
+-a----        2025-11-04  10:56 AM           4795 aesdecryption.py
+-a----        2025-11-05  12:37 PM           6269 aesencryption.py
+-a----        2025-11-03  11:12 AM            754 client.py
+-a----        2025-11-05  12:39 PM            248 message.txt
+-a----        2025-11-05  12:39 PM            272 message_encrypted.aes
+-a----        2025-11-03  11:12 AM            664 server.py
+-a----        2025-11-05  12:39 PM              0 step2logfile.txt
+
+
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> cat message_encrypted.aes
+ˆqÆZ‡‘_ž:¦ÒkLìëÌ9R«ì=(„Þ©£¥ÀòµÔxñNô&¹-¨9u£¸ûZ„‚­Ò&ªM_õx¢Û$žó$yÎg¯süž7k®Ì'Y,IÍƒ·¸Lï˜Jûæ*aÇåB=™Wº‡9 ü·9½ç¦ggFFúŽðYj*|?‹-]‰`…©*tÁžÿU$jÁLC®.)¸Rñðæö»Käeí],êáŸ³3b­¢ÍBàÒbšóZv§,ðÙÝ€!y~ª@Šü«ol`DIž}¡.Gñý¨SèŸ2ÚPj~ý²‡Íøtè.	­œ#Š‘ %ó_Mr
+]‚ìÌ$í2¼
+PS C:\Users\andre\Documents\University\COIS 4370\Assignment 2\aesalgorithm> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20251105123947
+**********************

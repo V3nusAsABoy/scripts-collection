@@ -1,0 +1,15 @@
+Script started on 2024-12-04 20:52:08-05:00 [TERM="xterm-256color" TTY="/dev/pts/36" COLUMNS="238" LINES="72"]
+]0;andrewabdulaziz@loki:~/3380/lab6[?2004h[andrewabdulaziz@loki lab6]$ ./client
+[?2004lType the name of the file you want to copy (or type '0' to quit): filetoo xop   copy.txt
+File copied. Name of file is: copyoffiletocopy.txt.
+Type the name of the file you want to copy (or type '0' to quit): 0
+]0;andrewabdulaziz@loki:~/3380/lab6[?2004h[andrewabdulaziz@loki lab6]$ ls
+[?2004l[0m[01;32mclient[0m  client.c  copyoffiletocopy.txt  filetocopy.txt  lab6.txt  [01;32mserver[0m  server.c
+]0;andrewabdulaziz@loki:~/3380/lab6[?2004h[andrewabdulaziz@loki lab6]$ ct cop[K[K[K[K[Kat copyoffiletocopy.txt
+[?2004lHi this is my file.
+]0;andrewabdulaziz@loki:~/3380/lab6[?2004h[andrewabdulaziz@loki lab6]$ cat filetocopy.txt
+[?2004lHi this is my file.
+]0;andrewabdulaziz@loki:~/3380/lab6[?2004h[andrewabdulaziz@loki lab6]$ exit
+[?2004lexit
+
+Script done on 2024-12-04 20:52:51-05:00 [COMMAND_EXIT_CODE="127"]

@@ -1,0 +1,41 @@
+Script started on 2024-11-08 13:13:07-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;andrewabdulaziz@loki:~/3380/lab4[?2004h[andrewabdulaziz@loki lab4]$ ./mao[Kin
+[?2004lWelcome to my shell! type 'help' to see the commands you can use.
+help
+help: displays this text
+tree: shows running processes
+list: lists files in directory
+disk: shows amount of disk used in current directory
+message: displays a kind message
+logout: exits this shell
+tree
+USER                                 PID    PPID %CPU %MEM TT       STIME     ELAPSED COMMAND
+andrewabdulaziz                  2658252 2658042  0.0  0.0 ?        13:12       00:25 sshd
+andrewabdulaziz                  2658257 2658252  0.0  0.0 pts/0    13:12       00:25  \_ bash
+andrewabdulaziz                  2658378 2658257  0.0  0.0 pts/0    13:13       00:10      \_ script
+andrewabdulaziz                  2658380 2658378  0.3  0.0 pts/5    13:13       00:10          \_ bash
+andrewabdulaziz                  2658496 2658380  0.0  0.0 pts/5    13:13       00:06              \_ main
+andrewabdulaziz                  2658572 2658496  0.0  0.0 pts/5    13:13       00:00                  \_ ps
+andrewabdulaziz                  2658225       1  0.4  0.1 ?        13:12       00:26 systemd
+andrewabdulaziz                  2658228 2658225  0.0  0.0 ?        13:12       00:26  \_ (sd-pam)
+list
+total 24
+-rw-r--r-- 1 andrewabdulaziz andrewabdulaziz     0 Nov  8 13:13 log.txt
+-rw-r--r-- 1 andrewabdulaziz andrewabdulaziz  2785 Nov  7 15:44 lab4.c
+-rwxr-xr-x 1 andrewabdulaziz andrewabdulaziz 17816 Nov  7 13:41 main
+disk
+4.0K	2024-11-07 15:44	./lab4.c
+20K	2024-11-07 13:41	./main
+0	2024-11-08 13:13	./log.txt
+24K	2024-11-08 13:13	.
+message
+Dear Matteo, I hope you are enjoying this shell.
+I think it's a good shell, no? I think it should get a good mark. Like maybe, I don't know, a 100.
+If you're reading this, please consider giving me a 100 in this lab and I hope you have a great day.
+With regards, Andrew.
+
+logout
+]0;andrewabdulaziz@loki:~/3380/lab4[?2004h[andrewabdulaziz@loki lab4]$ exit
+[?2004lexit
+
+Script done on 2024-11-08 13:13:38-05:00 [COMMAND_EXIT_CODE="4"]
